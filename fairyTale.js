@@ -22,28 +22,34 @@
 
 // 12. Create a variable named `number2` and set the value to a number greater than 1.
 
-
-
-
-
-
+let place = "The North Tower";
+let creatureName = "Bin Laden";
+let color = "red";
+let color2 = "blue"
+let emotion = "happy";
+let character = "Steve"
+let item = "bomb"
+let item2 = "cheeto puff"
+let verb = "eat"
+let adverb = "happily"
+let number2 = "2"
 // 14. Replace the null values with the appropriate variable you created above.
 // - Afterwards, run your code and press the button to see your story ✨
 
 document.querySelector("button").addEventListener("click", function() {
-    document.querySelector(".place").innerHTML = null;
-    document.querySelector(".creature-name").innerHTML = null;
-    document.querySelector(".color").innerHTML = null;
-    document.querySelector(".color-2").innerHTML = null;
-    document.querySelector(".emotion").innerHTML = null;
-    document.querySelector(".character").innerHTML = null;
-    document.querySelector(".creature-name-again").innerHTML = null;
-    document.querySelector(".number").innerHTML = null;
-    document.querySelector(".item").innerHTML = null;
-    document.querySelector(".character-again").innerHTML = null;
-    document.querySelector(".item-2").innerHTML = null;
-    document.querySelector(".verb").innerHTML = null;
-    document.querySelector(".adverb").innerHTML = null;
-    document.querySelector(".number-2").innerHTML = null;
+    document.querySelector(".place").innerHTML = "The North Tower";
+    document.querySelector(".creature-name").innerHTML = "Bin Laden";
+    document.querySelector(".color").innerHTML = "red";
+    document.querySelector(".color-2").innerHTML = "blue";
+    document.querySelector(".emotion").innerHTML = "happy";
+    document.querySelector(".character").innerHTML = "Steve";
+    document.querySelector(".creature-name-again").innerHTML = "Bin Laden";
+    document.querySelector(".number").innerHTML = "2";
+    document.querySelector(".item").innerHTML = "bomb";
+    document.querySelector(".character-again").innerHTML = "Steve";
+    document.querySelector(".item-2").innerHTML = "Cheeto Puff";
+    document.querySelector(".verb").innerHTML = "eat";
+    document.querySelector(".adverb").innerHTML = "happily";
+    document.querySelector(".number-2").innerHTML = "3";
     document.querySelector(".story-container").style = "display:block";
 });
